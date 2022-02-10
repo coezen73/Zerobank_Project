@@ -1,0 +1,4103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4418000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1639000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Activity\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:03:04.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10461000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Account Activity title",
+        "description": "",
+        "id": "account-activity-page;account-activity-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1698000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should see the title \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4268000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1553000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Activity\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:03:22.599Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4313000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Account dropdown option default value",
+        "description": "",
+        "id": "account-activity-page;account-dropdown-option-default-value",
+        "after": [
+          {
+            "result": {
+              "duration": 1323000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 315000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Account drop down default option should be \"Savings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.account_drop_down_default_option_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4299000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1818000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Activity\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:03:34.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4357000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Account drop down options",
+        "description": "",
+        "id": "account-activity-page;account-drop-down-options",
+        "after": [
+          {
+            "result": {
+              "duration": 1719000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 317000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Account drop down should have the following options",
+            "match": {
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.account_drop_down_should_have_the_following_options(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Loan"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Card"
+                ]
+              },
+              {
+                "cells": [
+                  "Brokerage"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4299000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1611000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Account Activity\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:03:46.925Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4036000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Transactions table columns",
+        "description": "",
+        "id": "account-activity-page;transactions-table-columns",
+        "after": [
+          {
+            "result": {
+              "duration": 1197000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 352000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should see the columns under the Transactions table",
+            "match": {
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_should_see_the_columns_under_the_Transactions_table(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Description"
+                ]
+              },
+              {
+                "cells": [
+                  "Deposit"
+                ]
+              },
+              {
+                "cells": [
+                  "Withdrawal"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      }
+    ],
+    "name": "Account Activity Page",
+    "description": "",
+    "id": "account-activity-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivity.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4173000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:03:58.421Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4441000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Savings account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;savings-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 1505000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3443000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"Savings\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_clicks_on_link_on_the_Account_Summary_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user should see the title \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Account drop down default option should be \"Savings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.account_drop_down_default_option_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4350000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:04:12.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4359000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Brokerage account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;brokerage-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 1280000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3302000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user clicks on \"Brokerage\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brokerage\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_clicks_on_link_on_the_Account_Summary_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user should see the title \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Account drop down default option should be \"Brokerage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brokerage\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.account_drop_down_default_option_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6570000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:04:25.791Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4179000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Checking account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;checking-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 1228000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3419000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user clicks on \"Checking\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checking\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_clicks_on_link_on_the_Account_Summary_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should see the title \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Account drop down default option should be \"Checking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checking\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.account_drop_down_default_option_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4166000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:04:41.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4189000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Credit Card account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;credit-card-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 1650000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3365000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user clicks on \"Credit Card\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_clicks_on_link_on_the_Account_Summary_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user should see the title \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 237000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Account drop down default option should be \"Credit Card\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.account_drop_down_default_option_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4571000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:04:55.140Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Loan account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;loan-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 1234000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3253000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user clicks on \"Loan\" link on the Account Summary page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_clicks_on_link_on_the_Account_Summary_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user should see the title \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 241000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Account drop down default option should be \"Loan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loan\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.account_drop_down_default_option_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      }
+    ],
+    "name": "Navigating to specific accounts in Accounts Activity",
+    "description": "",
+    "id": "navigating-to-specific-accounts-in-accounts-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivityNavigation.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6502000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:05:08.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4076000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Account Summary title",
+        "description": "",
+        "id": "account-summary-page;account-summary-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1304000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should see the title \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6460000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:05:20.524Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4518000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Account types",
+        "description": "",
+        "id": "account-summary-page;account-types",
+        "after": [
+          {
+            "result": {
+              "duration": 1556000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Account summary page should have to following account types",
+            "match": {
+              "location": "com.zerobank.step_definitions.AccountSummaryStepDefs.account_summary_page_should_have_to_following_account_types(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Cash Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Investment Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Loan Accounts"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4352000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:05:33.185Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3999000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Credit Accounts table columns",
+        "description": "",
+        "id": "account-summary-page;credit-accounts-table-columns",
+        "after": [
+          {
+            "result": {
+              "duration": 1242000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 292000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user should see the columns under the Credit Account table",
+            "match": {
+              "location": "com.zerobank.step_definitions.AccountSummaryStepDefs.the_user_should_see_the_columns_under_the_Credit_Account_table(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Account"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Card"
+                ]
+              },
+              {
+                "cells": [
+                  "Balance"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      }
+    ],
+    "name": "Account Summary Page",
+    "description": "",
+    "id": "account-summary-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountSummary.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-10T15:05:43.087Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4333000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add a new payee",
+        "description": "",
+        "id": "add-new-payee-under-pay-bills;add-a-new-payee",
+        "after": [
+          {
+            "result": {
+              "duration": 1366000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8052000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Add New Payee tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.AddNewPayeeStepDefs.add_New_Payee_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2162000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "creates new payee using following information",
+            "match": {
+              "location": "com.zerobank.step_definitions.AddNewPayeeStepDefs.creates_new_payee_using_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee Name",
+                  "The Law Offices of Hyde, Price \u0026 Scharks"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee Address",
+                  "100 Same st, Anytown, USA, 10001"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee details",
+                  "XYZ account"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "message \"The new payee The Law Offices of Hyde, Price \u0026 Scharks was successfully created.\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The new payee The Law Offices of Hyde, Price \u0026 Scharks was successfully created.\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AddNewPayeeStepDefs.message_should_be_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      }
+    ],
+    "name": "Add new payee under pay bills",
+    "description": "",
+    "id": "add-new-payee-under-pay-bills",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Add%20New%20Payee.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6483000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:05:59.078Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4147000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search date range",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-date-range",
+        "after": [
+          {
+            "result": {
+              "duration": 1644000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 964000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters date range from \"2012-09-01\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-01\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_enters_date_range_from_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2522000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "results table should only show transactions dates between \"2012-09-01\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-01\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 74
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_only_show_transactions_dates_between_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the results should be sorted by most recent date",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_results_should_be_sorted_by_most_recent_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enters date range from \"2012-09-02\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-02\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 48
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_enters_date_range_from_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2494000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "results table should only show transactions dates between \"2012-09-02\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-02\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 74
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_only_show_transactions_dates_between_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the results table should only not contain transactions dated \"2012-09-01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-01\"",
+                  "offset": 61
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_results_table_should_only_not_contain_transactions_dated(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6448000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:06:18.366Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3925000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Search description",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-description",
+        "after": [
+          {
+            "result": {
+              "duration": 1358000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 355000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters description \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_enters_description(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2680000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "results table should only show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_only_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user enters description \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_enters_description(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2485000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "results table should only show descriptions containing \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_only_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "results table should not show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_not_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8605000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:06:36.052Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4198000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search description case insensitive",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-description-case-insensitive",
+        "after": [
+          {
+            "result": {
+              "duration": 1759000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 420000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user enters description \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_enters_description(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2705000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "results table should only show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_only_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 230000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user enters description \"online\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"online\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_enters_description(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2417000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "results table should only show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_only_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6318000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:06:56.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4300000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Type",
+        "description": "",
+        "id": "find-transactions-in-account-activity;type",
+        "after": [
+          {
+            "result": {
+              "duration": 1997000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2658000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "results table should show at least one result under \"Deposit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deposit\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_show_at_least_one_result_under(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "results table should show at least one result under \"Withdrawal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Withdrawal\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_show_at_least_one_result_under(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 328000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user selects type \"Deposit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deposit\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.user_selects_type(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2442000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "results table should show at least one result under \"Deposit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deposit\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_show_at_least_one_result_under(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "results table should show no result under \"Withdrawal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Withdrawal\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_show_no_result_under(java.lang.String)"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 259000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user selects type \"Withdrawal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Withdrawal\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.user_selects_type(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2583000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "clicks search",
+            "match": {
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.clicks_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "results table should show at least one result under \"Withdrawal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Withdrawal\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_show_at_least_one_result_under(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "results table should show no result under \"Deposit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deposit\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.zerobank.step_definitions.FindTransactionsStepDefs.results_table_should_show_no_result_under(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      }
+    ],
+    "name": "Find Transactions in Account Activity",
+    "description": "",
+    "id": "find-transactions-in-account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FindTransactions.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-10T15:07:17.824Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5229000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-with-different-scenarios;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2635000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logged in \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1852000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see the title \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:07:28.617Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3678000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-with-different-scenarios;login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1592000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1352000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user logged in \"wrongusername\" and \"wrongpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wrongusername\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"wrongpassword\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see the title \"Zero - Log in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Log in\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:07:35.336Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4121000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-with-different-scenarios;login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1387000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1334000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user logged in \"wrongusername\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wrongusername\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see the title \"Zero - Log in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Log in\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:07:42.295Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4605000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-with-different-scenarios;login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1166000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1258000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user logged in \"username\" and \"wrongpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"wrongpassword\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see the title \"Zero - Log in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Log in\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:07:49.396Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4187000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-with-different-scenarios;login-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1576000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1469000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user logged in \"username\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see the title \"Zero - Log in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Log in\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:07:56.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4411000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-with-different-scenarios;login-with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1873000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1682000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user logged in \"\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see the title \"Zero - Log in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Log in\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:08:04.973Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4863000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login-with-different-scenarios;login-with-invalid-credentials;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1297000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1312000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user logged in \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should see the message \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user should see the title \"Zero - Log in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Log in\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login with different scenarios",
+    "description": "",
+    "id": "login-with-different-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4640000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1473000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Pay Bills\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:08:12.550Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4058000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Pay Bills title",
+        "description": "",
+        "id": "pay-bills-page;pay-bills-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1606000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should see the title \"Zero - Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Pay Bills\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_should_see_the_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4335000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1658000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Pay Bills\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:08:24.341Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4164000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Successful Pay operation",
+        "description": "",
+        "id": "pay-bills-page;successful-pay-operation",
+        "after": [
+          {
+            "result": {
+              "duration": 1400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7286000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters following information",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_enters_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee",
+                  "Apple"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Amount",
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "Date",
+                  "2022-02-09"
+                ]
+              },
+              {
+                "cells": [
+                  "Description",
+                  "long-term"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks Pay button",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_clicks_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user should see the message as \"The payment was successfully submitted.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The payment was successfully submitted.\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4303000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1729000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Pay Bills\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:08:44.205Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Unsuccessful Pay operation without amount",
+        "description": "",
+        "id": "pay-bills-page;unsuccessful-pay-operation-without-amount",
+        "after": [
+          {
+            "result": {
+              "duration": 1534000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 415000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user enters following information",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_enters_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee",
+                  "Apple"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Amount",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Date",
+                  "2022-02-09"
+                ]
+              },
+              {
+                "cells": [
+                  "Description",
+                  "long-term"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user clicks Pay button",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_clicks_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user should see the message as \"Please fill out this field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4529000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1427000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Pay Bills\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:08:56.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4344000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Unsuccessful Pay operation without date",
+        "description": "",
+        "id": "pay-bills-page;unsuccessful-pay-operation-without-date",
+        "after": [
+          {
+            "result": {
+              "duration": 1439000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2658000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user enters following information",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_enters_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee",
+                  "Apple"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Amount",
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "Date",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "Description",
+                  "long-term"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user clicks Pay button",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_clicks_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user should see the message as \"Please fill out this field.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Please fill out this field.\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_should_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6587000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1742000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Pay Bills\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:09:11.212Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4157000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Unsuccessful Pay operation invalid amount",
+        "description": "",
+        "id": "pay-bills-page;unsuccessful-pay-operation-invalid-amount",
+        "after": [
+          {
+            "result": {
+              "duration": 2059000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7487000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user enters following information",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_enters_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee",
+                  "Apple"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Amount",
+                  "%invalidAmount"
+                ]
+              },
+              {
+                "cells": [
+                  "Date",
+                  "2022-02-09"
+                ]
+              },
+              {
+                "cells": [
+                  "Description",
+                  "long-term"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 838000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user clicks Pay button",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_clicks_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5615000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user should not see the message \"The payment was successfully submitted.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The payment was successfully submitted.\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_should_not_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7446000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.zerobank.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1490000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigates to \"Pay Bills\" Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.zerobank.step_definitions.AccountActivityStepDefs.the_user_navigates_to_Page(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:09:39.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4952000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Unsuccessful Pay operation invalid date",
+        "description": "",
+        "id": "pay-bills-page;unsuccessful-pay-operation-invalid-date",
+        "after": [
+          {
+            "result": {
+              "duration": 2083000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7575000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "the user enters following information",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_enters_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee",
+                  "Apple"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Savings"
+                ]
+              },
+              {
+                "cells": [
+                  "Amount",
+                  "100"
+                ]
+              },
+              {
+                "cells": [
+                  "Date",
+                  "invalidDate"
+                ]
+              },
+              {
+                "cells": [
+                  "Description",
+                  "long-term"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "the user clicks Pay button",
+            "match": {
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_clicks_Pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2209000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the user should not see the message \"The payment was successfully submitted.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The payment was successfully submitted.\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.zerobank.step_definitions.PayBillsStepDefs.the_user_should_not_see_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      }
+    ],
+    "name": "Pay Bills Page",
+    "description": "",
+    "id": "pay-bills-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PayBills.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6649000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user accesses the Purchase foreign currency cash tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.the_user_accesses_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:10:05.803Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4174000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Available currencies",
+        "description": "",
+        "id": "purchase-foreign-currency;available-currencies",
+        "after": [
+          {
+            "result": {
+              "duration": 1370000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1202000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "following currencies should be available",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.following_currencies_should_be_available(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Australia (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Canada (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Switzerland (franc)"
+                ]
+              },
+              {
+                "cells": [
+                  "China (yuan)"
+                ]
+              },
+              {
+                "cells": [
+                  "Denmark (krone)"
+                ]
+              },
+              {
+                "cells": [
+                  "Eurozone (euro)"
+                ]
+              },
+              {
+                "cells": [
+                  "Great Britain (pound)"
+                ]
+              },
+              {
+                "cells": [
+                  "Japan (yen)"
+                ]
+              },
+              {
+                "cells": [
+                  "Mexico (peso)"
+                ]
+              },
+              {
+                "cells": [
+                  "Norway (krone)"
+                ]
+              },
+              {
+                "cells": [
+                  "New Zealand (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Singapore (dollar)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6237000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user accesses the Purchase foreign currency cash tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.the_user_accesses_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:10:19.207Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4262000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Error message for not selecting currency",
+        "description": "",
+        "id": "purchase-foreign-currency;error-message-for-not-selecting-currency",
+        "after": [
+          {
+            "result": {
+              "duration": 1437000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 433000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user tries to calculate cost without selecting a currency",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.user_tries_to_calculate_cost_without_selecting_a_currency()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6158000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user accesses the Purchase foreign currency cash tab",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.the_user_accesses_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:10:31.588Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4308000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Error message for not entering value",
+        "description": "",
+        "id": "purchase-foreign-currency;error-message-for-not-entering-value",
+        "after": [
+          {
+            "result": {
+              "duration": 1644000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 594000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user tries to calculate cost without entering a value",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.user_tries_to_calculate_cost_without_entering_a_value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "com.zerobank.step_definitions.PurchaseForeignCurrencyStepDefs.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ysnblgn"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase Foreign Currency",
+    "description": "",
+    "id": "purchase-foreign-currency",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PurchaseForeignCurrency.feature",
+    "tags": [
+      {
+        "name": "@ysnblgn",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

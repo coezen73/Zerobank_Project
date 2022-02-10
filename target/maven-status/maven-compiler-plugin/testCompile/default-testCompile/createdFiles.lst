@@ -1,0 +1,4 @@
+com\zerobank\step_definitions\Hooks.class
+com\zerobank\step_definitions\AccountActivityStepDefs.class
+com\zerobank\step_definitions\AccountSummaryStepDefs.class
+com\zerobank\step_definitions\LoginStepDefs.class
